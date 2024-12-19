@@ -17,6 +17,6 @@ function increaseCounter() {
     }
     // Redirección al formulario Index2 cuando el contador llega a 20
     if (counterValue === 20) {
-        window.location.href = "/Parcial2DW/Index2-CFormF1"; // URL de redireccionamiento
+        window.location.href = "/Parcial2DW/Index2-CFormF1"; // URL de redireccionamiento a index2
     }
 }

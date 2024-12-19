@@ -1,4 +1,4 @@
-function convertCurrency() {
+function convertCurrency() { 
     const amount = parseFloat(document.getElementById("amount").value);
     const fromCurrency = document.getElementById("fromCurrency").value;
     const toCurrency = document.getElementById("toCurrency").value;
@@ -27,7 +27,7 @@ function convertCurrency() {
 
     // Redirección si el valor convertido es mayor o igual a 500
     if (convertedAmount >= 500) {
-        window.location.href = "/Index3"; // Ruta para Index3 configurada en Routes.php
+        window.location.href = "http://localhost:8081/Parcial2DW/Index3-CResultadoF1"; // Asegúrate de usar la URL completa
     }
 
     return false; // Prevenir el envío del formulario

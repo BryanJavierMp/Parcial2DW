@@ -1,64 +1,30 @@
-/* Fondo básico */
 body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fondo gris claro */
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     margin: 0;
 }
-
 /* Contenedor principal */
 .container {
-    width: 400px;
-    background-color: white;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 0.125rem solid rgb(8, 86, 203); 
+    border-radius: 0.25rem; 
+    padding: 1.25rem; 
+    width: 100%; 
+    max-width: 25rem; 
+    box-sizing: border-box; 
+    background-color: white; 
 }
-
-/* Título del formulario */
-h2 {
-    text-align: center;
-    color: #1900ff;
+#amount{
+    padding: .8em;
 }
-
-/* Espaciado entre elementos */
-form > * {
-    margin-bottom: 20px;
+#fromCurrency{
+    padding: .8em;
 }
-
-/* Input para la cantidad */
-input[type="number"] {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+#toCurrency{
+    padding: .8em;
 }
-
-/* Selectores de moneda */
-select {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-/* Botón convertir */
-button {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: darkblue;
+#result{
+    padding: .8em;
 }
